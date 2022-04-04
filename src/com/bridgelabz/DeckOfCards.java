@@ -27,5 +27,6 @@ public class DeckOfCards {
             p = sc.nextInt();
         }
         Players pl = new Players(p);
+        pl.sequence();
     }
 }
